@@ -21,12 +21,10 @@ class Employee:
             print("Salary Category: Low")
 
 
-# Get employee details
 name = input("Enter employee name: ")
 emp_id = int(input("Enter employee ID: "))
 salary = float(input("Enter salary: "))
 
-# Create object
 e1 = Employee(name, emp_id, salary)
 
 # Call methods
