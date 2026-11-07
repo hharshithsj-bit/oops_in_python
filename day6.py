@@ -32,12 +32,12 @@ class BankAccount:
         print("Available Balance: Rs.", self.balance)
 
 
-# Get account details
+
 name = input("Enter account holder name: ")
 account_no = int(input("Enter account number: "))
 balance = float(input("Enter initial balance: "))
 
-# Create object
+
 account = BankAccount(name, account_no, balance)
 
 while True:
