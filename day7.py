@@ -27,8 +27,6 @@ class BankAccount:
         else:
             print("Insufficient balance!")
 
-
-# Creating an object
 account1 = BankAccount("Harshith", 123456, 5000)
 
 while True:
