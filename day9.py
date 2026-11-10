@@ -18,7 +18,6 @@ class Student:
             print("Result: FAIL")
 
 
-# Main program
 print("STUDENT MANAGEMENT SYSTEM")
 
 name = input("Enter student name: ")
