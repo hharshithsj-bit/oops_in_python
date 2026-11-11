@@ -23,7 +23,7 @@ class BankAccount:
         print("Current Balance: ₹", self.balance)
 
 
-
+# creating an account
 name = input("Enter your name: ")
 account = BankAccount(name, 1000)
 
