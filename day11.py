@@ -23,7 +23,6 @@ class BankAccount:
         print(f"Current Balance: ₹{self.balance}")
 
 
-# Main program
 print("===== BANK MANAGEMENT SYSTEM =====")
 
 name = input("Enter account holder name: ")
