@@ -20,8 +20,6 @@ class Student(Person):
         print("USN:", self.usn)
         print("Branch:", self.branch)
 
-
-# Creating an object
 student1 = Student(
     "Harshith",
     20,
@@ -29,6 +27,5 @@ student1 = Student(
     "Electronics and Communication"
 )
 
-# Display student details
 print("===== STUDENT DETAILS =====")
 student1.display_student()
