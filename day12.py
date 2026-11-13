@@ -1,6 +1,4 @@
 
-# Day 12 - Python OOP: Inheritance
-
 class Person:
     def __init__(self, name, age):
         self.name = name
