@@ -18,7 +18,7 @@ class Cat(Animal):
 class Cow(Animal):
     def sound(self):
         print("Cow says: Moo Moo!")
-
+# creating objects
 dog = Dog()
 cat = Cat()
 cow = Cow()
