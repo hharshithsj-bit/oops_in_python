@@ -22,7 +22,7 @@ class Cow(Animal):
 dog = Dog()
 cat = Cat()
 cow = Cow()
-
+# polymorphism
 animals = [dog, cat, cow]
 
 for animal in animals:
