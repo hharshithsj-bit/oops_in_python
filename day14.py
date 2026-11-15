@@ -29,7 +29,7 @@ class BankAccount:
     def get_balance(self):
         return self.__balance
 
-
+# creating an object
 account = BankAccount("Harshith", 5000)
 
 print("----- BANK ACCOUNT -----")
