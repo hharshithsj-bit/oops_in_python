@@ -1,15 +1,16 @@
-
+# day14 -Encapsulation in python
 
 class BankAccount:
 
     def __init__(self, name, balance):
         self.name = name
-        self.__balance = balance
+        self.__balance = balance # private variable
+    # display account details
     def display(self):
         print("Account Holder:", self.name)
         print("Balance:", self.__balance)
 
-    
+    # Deposite money
     def deposit(self, amount):
         if amount > 0:
             self.__balance += amount
