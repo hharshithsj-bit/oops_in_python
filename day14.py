@@ -18,7 +18,7 @@ class BankAccount:
         else:
             print("Invalid deposit amount!")
 
-    
+    # withdraw money
     def withdraw(self, amount):
         if amount > 0 and amount <= self.__balance:
             self.__balance -= amount
