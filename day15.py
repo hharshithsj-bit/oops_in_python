@@ -1,6 +1,6 @@
 
 from abc import ABC, abstractmethod
-
+# Abstract class
 class Vehicle(ABC):
 
     @abstractmethod
@@ -12,7 +12,6 @@ class Vehicle(ABC):
         pass
 
 
-
 class Car(Vehicle):
 
     def start(self):
@@ -20,8 +19,6 @@ class Car(Vehicle):
 
     def stop(self):
         print("Car engine stopped!")
-
-
 
 class Bike(Vehicle):
 
