@@ -37,7 +37,7 @@ except ValueError:
     print("Error: Enter an integer!")
 
 
-
+# Example 3: Using raise
 def check_age(age):
     if age < 18:
         raise ValueError("You are not eligible!")
