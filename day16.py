@@ -23,7 +23,7 @@ else:
 finally:
     print("Program execution completed.")
 
-
+# Example 2: Handling multiple exceptions
 try:
     numbers = [10, 20, 30]
     index = int(input("\nEnter list index: "))
