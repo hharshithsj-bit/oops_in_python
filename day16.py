@@ -2,6 +2,8 @@
 # Day 16 - Exception Handling
 
 print("===== EXCEPTION HANDLING =====")
+
+# Example 1: Basic try and except
 try:
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
