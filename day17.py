@@ -9,7 +9,7 @@ file.close()
 
 print("File created successfully!")
 
-
+# 2 . Read the file
 file = open("student.txt", "r")
 content = file.read()
 print("\nFile Content:")
