@@ -1,6 +1,6 @@
+# day 17 - Python File Handling
 
-
-
+# 1 . Create and write to a File
 file = open("student.txt", "w")
 file.write("Welcome to Python Day 17!\n")
 file.write("I am learning File Handling.\n")
