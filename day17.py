@@ -16,14 +16,14 @@ print("\nFile Content:")
 print(content)
 file.close()
 
-
+# 3 . Append new information
 file = open("student.txt", "a")
 file.write("\nI practice Python every day.")
 file.close()
 
 print("\nNew information added!")
 
-
+# 4 . Read updated file
 with open("student.txt", "r") as file:
     print("\nUpdated File Content:")
     print(file.read())
