@@ -23,7 +23,7 @@ finally:
     print("Program execution finished.")
 
 
-
+# Example 2: List Index Error
 print("\n===== LIST EXAMPLE =====")
 
 numbers = [10, 20, 30, 40, 50]
@@ -39,7 +39,7 @@ except ValueError:
     print("Please enter an integer!")
 
 
-
+# Example 3: Custom Exception
 print("\n===== AGE CHECKING =====")
 
 try:
