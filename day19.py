@@ -27,7 +27,7 @@ class BankAccount:
         print("Balance: ₹", self.balance)
 
 
-
+# Creating an object
 account = BankAccount("Harshith", 5000)
 
 account.display()
