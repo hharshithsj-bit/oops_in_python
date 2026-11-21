@@ -1,5 +1,5 @@
 # day 20 - Bank Account Management System
-
+# Concepts: Classes, Objects, Methods, Constructor, Encapsulation
 class BankAccount:
     def __init__(self, name, account_number, balance=0):
         self.name = name
