@@ -31,7 +31,7 @@ class BankAccount:
         print(f"Account Number: {self.account_number}")
         print(f"Balance: ₹{self.balance}")
 
-        
+# Creating an object        
 account1 = BankAccount("Harshith", 123456789, 5000)
 
 while True:
