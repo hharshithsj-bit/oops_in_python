@@ -1,6 +1,6 @@
+# Day 21 - Python Tnheritance
 
-
-
+# Parent class
 class Animal:
     def eat(self):
         print("Animals can eat food.")
