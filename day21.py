@@ -17,9 +17,9 @@ class Dog(Animal):
 # Create object
 my_dog = Dog()
 
-
+# Access parent class methods
 my_dog.eat()
 my_dog.sleep()
 
-
+# Access child class method
 my_dog.bark()
