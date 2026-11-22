@@ -9,14 +9,15 @@ class Animal:
         print("Animals can sleep.")
 
 
-
+# Child class
 class Dog(Animal):
     def bark(self):
         print("Dog is barking!")
 
-
-
+# Create object
 my_dog = Dog()
+
+
 my_dog.eat()
 my_dog.sleep()
 
