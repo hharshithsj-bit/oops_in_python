@@ -12,7 +12,7 @@ class Animal:
         print(f"{self.name} is sleeping.")
 
 
-
+# Child class
 class Dog(Animal):
     def bark(self):
         print(f"{self.name} is barking!")
@@ -38,3 +38,4 @@ cat1.eat()
 cat1.sleep()
 
 cat1.meow()
+
