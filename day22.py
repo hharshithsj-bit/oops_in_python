@@ -1,6 +1,6 @@
+# Day 22 - Python OOP: Inheritence
 
-
-
+# Parent class
 class Animal:
     def __init__(self, name):
         self.name = name
@@ -36,4 +36,5 @@ print()
 
 cat1.eat()
 cat1.sleep()
+
 cat1.meow()
