@@ -23,11 +23,11 @@ class Cat(Animal):
         print(f"{self.name} is meowing!")
 
 
-
+# Creating objects
 dog1 = Dog("Rocky")
 cat1 = Cat("Kitty")
 
-
+# Creating methods
 dog1.eat()
 dog1.sleep()
 dog1.bark()
@@ -38,4 +38,5 @@ cat1.eat()
 cat1.sleep()
 
 cat1.meow()
+
 
