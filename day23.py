@@ -1,4 +1,4 @@
-
+# Day 23 - Inheritance and Method Overriding
 
 class Animal:
     def __init__(self, name):
