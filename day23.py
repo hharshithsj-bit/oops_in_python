@@ -18,7 +18,7 @@ class Cat(Animal):
         print(f"{self.name} says Meow!")
 
 
-
+# Creating objects
 dog = Dog("Rocky")
 cat = Cat("Kitty")
 
