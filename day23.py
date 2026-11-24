@@ -22,6 +22,6 @@ class Cat(Animal):
 dog = Dog("Rocky")
 cat = Cat("Kitty")
 
-
+# Calling methods
 dog.sound()
 cat.sound()
