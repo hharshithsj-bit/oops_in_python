@@ -9,7 +9,7 @@ class Expense:
         self.description = description
 
 
-
+# Class to manage all expenses
 class ExpenseTracker:
     def __init__(self):
         # Empty list to store all expenses
