@@ -1,7 +1,7 @@
 # Day 24 - Smart Expense Tracker
 # Using Object-Oriented Programming (OOP)
 
-
+# Class to store individual expense details
 class Expense:
     def __init__(self, category, amount, description):
         self.category = category
