@@ -68,8 +68,7 @@ class ExpenseTracker:
         for category, amount in summary.items():
             print(f"{category}: ₹{amount:.2f}")
 
-
-            
+# create an object of ExpenseTracker class
 tracker = ExpenseTracker()
 
 # Run the program continuously until the user exits
